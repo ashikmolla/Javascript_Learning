@@ -14,3 +14,6 @@ var ferind=['ashik', 'atik', 'ahmad', 'mehadi'];
  var values=['a','e','i','o','u'];
 //  console.log(values);
 //  console.log(values.length)
+
+
+
