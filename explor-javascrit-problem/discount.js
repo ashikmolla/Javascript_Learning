@@ -30,6 +30,6 @@
          return totalcost;
     }
  }
- const price=ticketPrice(201)
+ const price=ticketPrice(201);
 
  console.log(price)
