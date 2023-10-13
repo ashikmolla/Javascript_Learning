@@ -27,12 +27,12 @@ document.querySelector(".clas2").innerText = "js add me"
 /*----------------- 
 section time try 
 --------------*/
-const section=document.getElementsByTagName("section");
-section.style.border="1px solid rad"
+const section = document.getElementsByTagName("section");
+section.style.border = "1px solid red"
 
 
 const haddins = document.getElementsByTagName("h1")
-for (haddin of haddins){
+for (haddin of haddins) {
     haddin.style.border = "1px solid black";
     haddin.style.color = "red"
 }
