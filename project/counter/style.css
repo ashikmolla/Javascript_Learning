@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #ff5200;
+    animation: ashik 5s infinite;
+}
+
+@keyframes ashik {
+    from {
+        background-color: rgb(43, 90, 49);
+    }
+
+    to {
+        background-color: rgb(119, 119, 242);
+    }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+#card {
+
+    background-color: #ff5200;
+    padding: 35px;
+    box-shadow: 4px 8px white 6px 20px white;
+    text-align: center;
+
+
+
+}
+
+#counter {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px
+}
+#button-body button{
+    
+}
