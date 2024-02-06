@@ -15,3 +15,16 @@ document.getElementById('reset').addEventListener('click', function () {
 })
 
 
+var selectOne = document.getElementById('select-one')
+selectOne.addEventListener('change', function () {
+    counterElement.textContent = parseInt(counterElement.textContent) + parseInt(selectOne.value)
+})
+
+var selectTow = document.getElementById('select-tow')
+selectTow.addEventListener('change', function () {
+    counterElement.textContent = parseInt(counterElement.textContent) - parseInt(selectTow.value)
+})
+
+
+
+
